@@ -10,7 +10,7 @@
  * 
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  * 
  * You should have received a copy of the GNU General Public License
@@ -18,9 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
  * 
- * 
  */
-
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -34,8 +32,6 @@ int main()
 		i=7-k;
 	string a[6]={"1/6","1/3","1/2","2/3","5/6","1/1"};
 	cout << a[i-1];
-	
-	
 	
 	return 0;
 }
