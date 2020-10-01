@@ -24,6 +24,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define fo(x,n) for(int x = 0; x < n; x++)
 
 int main()
 {	int n,i;
@@ -31,7 +32,7 @@ int main()
 	string s;
 	cin >> s;
 	set<char> a;
-	for(i=0;i<n;i++){
+	fo(i,n){
 		a.insert(tolower(s[i]));
 	}
 	if(a.size()==26)
