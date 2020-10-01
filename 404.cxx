@@ -24,22 +24,23 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define fo(x,n) for(int x = 0; x < n; x++)
 
 int main()
 {	long long int n,i,j,c=0,d=0;
 	char t,b;
 	cin >> n;
 	char a[n][n];
-	for(i=0;i<n;i++)
-		for(j=0;j<n;j++)
+	fo(i,n)
+		fo(j,n)
 			cin >> a[i][j];
 	t=a[0][0];b=a[0][1];
 	if(t==b){
 		cout << "NO";
 		return 0;
 	}
-	for(i=0;i<n;i++){
-		for(j=0;j<n;j++){
+	fo(i,n){
+		fo(j,n){
 			if(i==j || i+j==(n-1)){
 				if(a[i][j]==t){
 					c++;
