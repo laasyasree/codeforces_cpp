@@ -24,14 +24,15 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define fo(x,n) for(int x = 0; x < n; x++)
 
 int main()
 {	int n,i,sum=0,t=0,c=0;
 	cin >> n;
 	int a[n];
-	for(i=0;i<n;i++){
+	fo(i,n){
 		cin >> a[i];
-		sum=sum+a[i];
+		sum+=a[i];
 	}
 	sort(a,a+n);
 	for(i=n-1;t<=(sum/2);i--){
