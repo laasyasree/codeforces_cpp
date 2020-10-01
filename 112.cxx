@@ -30,13 +30,13 @@ int main()
 	string s,t;
 	cin >> s >> t;
 	for(i=0; i<s.length();i++){
-		s[i]=tolower(s[i]);
-		t[i]=tolower(t[i]);
-		if(s[i]>t[i]){
+		s[i] = tolower(s[i]);
+		t[i] = tolower(t[i]);
+		if(s[i]>t[i]) {
 			cout << "1";
 			return 0;
 		}
-		else if(s[i]<t[i]){
+		else if(s[i]<t[i]) {
 			cout << "-1";
 			return 0;
 		}
